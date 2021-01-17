@@ -1,0 +1,57 @@
+:root {
+  --text-font: "Roboto", sans-serif;
+  --text-title: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: var(--text-font);
+}
+
+/* Header */
+
+.logo {
+  font-family: var(--text-title);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-snd {
+  color: #000000;
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.contacts-list-link:hover,
+.sontacts-list-link:focus {
+  color: var(--accent-color);
+}
+
+/* End Header */
+/* Studio Main */
+/* Hero */
+
+/* End Hero */
+/* End Studio Main */
